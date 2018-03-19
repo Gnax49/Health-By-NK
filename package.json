@@ -1,0 +1,29 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ag_dubs <wombat@npmjs.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "botbuilder": "^3.14.0",
+    "botbuilder-azure": "^3.0.4",
+    "cors": "^2.8.4",
+    "dotenv-extended": "^2.0.1",
+    "express": "^4.16.2",
+    "express-myconnection": "^1.0.4",
+    "mysql": "^2.15.0",
+    "needle": "^2.1.1",
+    "restify": "^6.3.4",
+    "url": "^0.11.0",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "ws": "3.3.2"
+  }
+}
