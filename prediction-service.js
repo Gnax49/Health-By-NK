@@ -13,7 +13,7 @@ app.use(bodyParser.json({type: '*/*'}))
 
 
 exports.getImageStremFromMessage =  (stream) => {
-    var apiUrl = "https://southcentralus.api.cognitive.microsoft.com/customvision/v1.1/Prediction/6f0f298f-6833-40b8-a189-d79d8a80fc59/image?iterationId=b9e6d3f7-00e5-4c75-b723-3deb4e1b0876";
+    var apiUrl = "https://southcentralus.api.cognitive.microsoft.com/customvision/v1.1/Prediction/6f0f298f-6833-40b8-a189-d79d8a80fc59/image";
     return new Promise(function (resolve, reject) {
         var requestData = {
             url: apiUrl,
