@@ -45,7 +45,7 @@ bot.on('conversationUpdate', (message) => {
                     if (identity.id === message.address.bot.id) {
                         var reply = new builder.Message()
                             .address(message.address)
-                            .text('สวัสดี เราบอททำนายแคล โพสรูปได้เลยยยย');
+                            .text('สวัสดี เราบอททำนายแคลอรี่โพสต์รูปได้เลยยยย');
                         bot.send(reply);
                     }
                 })
