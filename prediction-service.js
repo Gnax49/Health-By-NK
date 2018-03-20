@@ -68,7 +68,7 @@ const extractTag = (body) => {
         return max.Tag+"แดกเหี้ยไรเยอะแยะ";
         }
         else if(max.Tag == "Tomato_snack") {
-            return max.Tag+"ไม่มีมี แคลลอรี่  จ๊ะ";
+            return max.Tag+"ไม่มีมี แคลลอรี่  จ๊ะ อิอิ";
         }
 
         
