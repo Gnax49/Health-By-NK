@@ -49,27 +49,17 @@ const extractTag = (body) => {
                 max = body.Predictions[index];
             }
         }
-       if(max.Tag == "Calbee_original") {
-           return max.Tag+"มี แคลลอรี่ 70 kilocal นะ";
-       }else if(max.Tag == "Koala_march_chicolate") {
+       if(max.Tag == "Hanami_original") {
+           return max.Tag+"แดก ไร เยอะ แยะ";
+       }else if(max.Tag == "Jele_beauty") {
            return max.Tag+"มี แคลลอรี่ 100 kilocal นะ";
-       }else if(max.Tag == "Lays_spicy_smoked_cheese") {
+       }else if(max.Tag == "milk") {
            return max.Tag+"มี แคลลอรี่ 70 kilocal นะ";
-       }else if(max.Tag == "Taokaenoi_big_sheet_original") {
+       }else if(max.Tag == "Milo_cereal") {
            return max.Tag+"มี แคลลอรี่ 20 kilocal นะ";
-       }else if(max.Tag == "Taro_barbq") {
-           return max.Tag+"ไม่มีมี แคลลอรี่  จ๊ะ";
-       }else if(max.Tag == "Taro_spicy") {
-           return max.Tag+"ไม่มีมี แคลลอรี่  จ๊ะ";
-       }else if(max.Tag == "Tasto_pla_sam_rod") {
+       }else if(max.Tag == "Tomato_snack") {
            return max.Tag+"ไม่มีมี แคลลอรี่  จ๊ะ";
        }
-       else if(max.Tag == "Hanami_original") {
-        return max.Tag+"แดกเหี้ยไรเยอะแยะ";
-        }
-        else if(max.Tag == "Tomato_snack") {
-            return max.Tag+"ไม่มีมี แคลลอรี่  จ๊ะ อิอิ";
-        }
 
         
     
