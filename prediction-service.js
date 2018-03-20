@@ -13,7 +13,7 @@ app.use(bodyParser.json({type: '*/*'}))
 
 
 exports.getImageStremFromMessage =  (stream) => {
-    var apiUrl = "https://southcentralus.api.cognitive.microsoft.com/customvision/v1.1/Prediction/bd1ccb96-0bec-45b0-9ad7-5c037bae7361/image";
+    var apiUrl = "https://southcentralus.api.cognitive.microsoft.com/customvision/v1.1/Prediction/6f0f298f-6833-40b8-a189-d79d8a80fc59/image?iterationId=b9e6d3f7-00e5-4c75-b723-3deb4e1b0876";
     return new Promise(function (resolve, reject) {
         var requestData = {
             url: apiUrl,
@@ -64,6 +64,12 @@ const extractTag = (body) => {
        }else if(max.Tag == "Tasto_pla_sam_rod") {
            return max.Tag+"ไม่มีมี แคลลอรี่  จ๊ะ";
        }
+       else if(max.Tag == "Hanami_original") {
+        return max.Tag+"ไม่มีมี แคลลอรี่  จ๊ะ";
+        }
+        else if(max.Tag == "Tomato_snack") {
+            return max.Tag+"ไม่มีมี แคลลอรี่  จ๊ะ";
+        }
 
         
     
