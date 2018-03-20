@@ -75,7 +75,7 @@ const getImageStreamFromMessage = (message) => {
 
 const handleSuccessResponse = (session, caption) => {
     if (caption) {
-        session.send('มันคืออออ \'s ' + caption);
+        session.send('I think it\'s ' + caption);
     } else {
         session.send('Couldn\'t find a caption for this one');
     }
