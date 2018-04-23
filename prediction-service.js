@@ -54,7 +54,7 @@ const extractTag = (body) => {
        }else if(max.Tag == "Koala_march_chicolate") {
            return max.Tag+"มี แคลลอรี่ 100 kilocal นะ";
        }else if(max.Tag == "Lays_spicy_smoked_cheese") {
-           return max.Tag+"มี แคลลอรี่ 70 kilocal นะ";
+           return max.Tag+"มี แคลลอรี่ 140 kilocal นะ";
        }else if(max.Tag == "Taokaenoi_big_sheet_original") {
            return max.Tag+"มี แคลลอรี่ 20 kilocal นะ";
        }else if(max.Tag == "Taro_barbq") {
@@ -64,7 +64,7 @@ const extractTag = (body) => {
        }else if(max.Tag == "Tasto_pla_sam_rod") {
            return max.Tag+"ไม่มีมี แคลลอรี่  จ๊ะ";
        }else if(max.Tag == "Hanami_original") {
-           return max.Tag+"แดก ไร เยอะ แยะ";
+           return max.Tag+"มี แคลลอรี่ 100 kilocal นะ";
        }else if(max.Tag == "Jele_beauty") {
            return max.Tag+"มี แคลลอรี่ 100 kilocal นะ";
        }else if(max.Tag == "milk") {
@@ -72,8 +72,17 @@ const extractTag = (body) => {
        }else if(max.Tag == "Milo_cereal") {
            return max.Tag+"มี แคลลอรี่ 20 kilocal นะ";
        }else if(max.Tag == "Tomato_snack") {
-           return max.Tag+"ไม่มีมี eieiแคลลอรี่  จ๊ะ";
+           return max.Tag+"มี แคลลอรี่ 100 kilocal นะ";
+       }else if(max.Tag == "Cookie_Butter") {
+           return max.Tag+"มี แคลลอรี่ 260 kilocal นะ";
+       }else if(max.Tag == "Frostie") {
+           return max.Tag+"มี แคลลอรี่ 113 kilocal นะ";
+       }else if(max.Tag == "Pocky_Choco") {
+           return max.Tag+"มี แคลลอรี่ 230 kilocal นะ";
+       }else if(max.Tag == "Sun_Flower_Seed_Honey") {
+           return max.Tag+"มี แคลลอรี่ 190 kilocal นะ";
        }
+
 
         
     
