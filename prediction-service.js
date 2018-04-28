@@ -70,7 +70,7 @@ const extractTag = (body) => {
        }else if(max.Tag == "milk") {
            return max.Tag+"มี แคลลอรี่ 70 kilocal นะ";
        }else if(max.Tag == "Milo_cereal") {
-           return max.Tag+"มี แคลลอรี่ 20 kilocal นะ";
+           return max.Tag+"มี แคลลอรี่ 90 kilocal นะ";
        }else if(max.Tag == "Tomato_snack") {
            return max.Tag+"มี แคลลอรี่ 100 kilocal นะ";
        }else if(max.Tag == "Cookie_Butter") {
